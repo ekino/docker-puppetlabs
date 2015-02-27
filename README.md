@@ -10,8 +10,10 @@ docker image.
 
 ## Available Tags
 
-* `12.04.5`, `12.04`, `precise`  - [(precise/Dockerfile)][3]
-* `14.04.1`, `14.04`, `trusty`, `latest` - [(trusty/Dockerfile)][4]
+* `14.04.1`, `14.04`, `trusty`, `latest` - [(ubuntu/trusty/Dockerfile)][3]
+* `12.04.5`, `12.04`, `precise`  - [(ubuntu/precise/Dockerfile)][4]
+* `7.8`, `7`, `wheezy`  - [(debian/wheezy/Dockerfile)][5]
+* `sid` - [(debian/sid/Dockerfile)][6]
 
 ## What is Puppet
 
@@ -32,6 +34,8 @@ Even if its purppose is not to be run *"as is"*,  you can still start an interac
 
   [1]: https://apt.puppetlabs.com/pool/
   [2]: https://docs.puppetlabs.com/
-  [3]: https://github.com/ekino/docker-images/blob/master/puppetlabs/precise/Dockerfile
-  [4]: https://github.com/ekino/docker-images/blob/master/puppetlabs/trusty/Dockerfile
+  [3]: https://github.com/ekino/docker-puppetlabs/tree/master/ubuntu/trusty
+  [4]: https://github.com/ekino/docker-puppetlabs/tree/master/ubuntu/precise
+  [5]: https://github.com/ekino/docker-puppetlabs/tree/master/debian/wheezy
+  [6]: https://github.com/ekino/docker-puppetlabs/tree/master/debian/sid
 
